@@ -1,0 +1,37 @@
+{
+  "project": "AGI Pipeline",
+  "version": "0.2.0",
+  "creator": {
+    "github_username": "tahashiburrahman",
+    "profile": "https://github.com/tahashiburrahman"
+  },
+  "purpose": "Model-agnostic orchestration research prototype",
+  "not_agi_claim": true,
+  "core_components": [
+    "goal intake",
+    "task planning",
+    "capability registry",
+    "agent routing",
+    "specialist execution",
+    "result evaluation",
+    "bounded retries",
+    "execution memory"
+  ],
+  "agent_contract": {
+    "attributes": [
+      "name",
+      "capabilities",
+      "priority"
+    ],
+    "method": "run(task, context) -> AgentResult"
+  },
+  "documentation_order": [
+    "README.md",
+    "AI_MODEL_GUIDE.md",
+    "SYSTEM_OVERVIEW.md",
+    "ARCHITECTURE.md",
+    "AGENTS.md"
+  ],
+  "core_runtime_dependencies": "Python standard library only",
+  "demo_requires_api_key": false
+}
